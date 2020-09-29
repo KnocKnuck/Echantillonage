@@ -19,7 +19,7 @@ On sait maintenant que notre population est composee de H = 3 strates, une pour 
       1. Construisez un echantillon de 12 objets en procedant a un echantillonnage aleatoire stratifie proportionnel (le taux de sondage dans la strate h est egal au poids de la strate h).
       En deduire une estimation de l'aire moyenne de la population. Calculer la moyenne et l'ecart-type des estimations obtenues dans le groupe de TD. Comparer ces resultats a ceux obtenus avec l'echantillonnage aleatoire simple.
       
-      Soit {x_{ah}} <img src="https://render.githubusercontent.com/render/math?math={x_{ah}}"> l'aire de l' <img src="https://render.githubusercontent.com/render/math?math=\alpha^{e}"> objet de la strate h. 
+      Soit {x_{ah}} <img src="https://render.githubusercontent.com/render/math?math= {x_{ah}}"> l'aire de l' <img src="https://render.githubusercontent.com/render/math?math= \alpha^{e}"> objet de la strate h. 
       Soit 
    <img src="https://render.githubusercontent.com/render/math?math=N = \sum_{h=1}^{H} {N_{h}}, {\mu_{h}} = \frac{1}{{N_{h}}}*\sum_{\alpha \rightarrow 1}^{{N_{h}}} {x_{\alpha h}}">
       
