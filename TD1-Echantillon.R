@@ -1,6 +1,8 @@
 ### TD1 STATISTIQUES ET APPLICATIONS 
-setwd("D:/One Drive/OneDrive/Univ Joseph/Universit� Lille 3 - MIASHS/Master 1 SID/Semestre 2/Visualisation de l'information - FRAISSE/LAVIGNE/TD 1-20170928")
+setwd("______Your____Path_____ (C:/ or D:/")
 table=read.table('PopAireFixe.csv', sep=';',dec='.', header = TRUE)
+
+
 head(table)
 ech = c(20,66,98,104,81,24,48,13,38,16,11,30)
 a_ech = table$aire[ech]
@@ -21,7 +23,7 @@ hist(moy)
 
 table$type
 
-##Echantillonage Stratifié 
+##Echantillonage StratifiÃ© 
 ## 3 Cercles 
 
 ech_cercles = sample(1:30,3)
@@ -32,12 +34,12 @@ moy_cercles = mean(table$aire[ech_cercles])
 ech_triangle = sample(31:67,4)
 moy_triangle = mean(table$aire[ech_triangle])
 
-## 5 Carré 
+## 5 CarrÃ© 
 
-ech_carrés = sample(68:114,5)
-moy_carrés = mean(table$aire[ech_carrés])
+ech_carres = sample(68:114,5)
+moy_carres = mean(table$aire[ech_carres])
 
 ## EStimation de la moyenne 
 
-moy_str = 0.26*moy_cercles+0.33*moy_triangle+0.41*moy_carrés
+moy_str = 0.26*moy_cercles+0.33*moy_triangle+0.41*moy_carres
 
